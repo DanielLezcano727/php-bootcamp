@@ -1,0 +1,46 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-style: normal;
+    font-size: 90%;
+}
+
+.title{
+    font-family: inherit;
+    font-weight: bold;
+}
+
+input{
+    float: left;
+}
+
+p{
+    font-size: 90%;
+    font-family: inherit;
+}
+
+#texto{
+    width: 12%;
+}
+
+#submitButton{
+    font-family: inherit;
+    border-radius: 99px;
+    width: 6%;
+    font-size: 101%;
+    font-weight: 100;
+    border: 1px solid #bababa;
+    padding: .2em;
+    background-color:rgb(233, 233, 233);
+}
+
+.errorDiv{
+    background-color: #FEF5F1;
+    border: 1px solid #F17C52;
+    width:40%;
+}
+
+.errorParagraph{
+    color: #B33A12;
+    padding:1em;
+}
