@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {"clases\\": "src/"}
+    }
+}

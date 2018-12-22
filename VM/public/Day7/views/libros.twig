@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{titulo}}</title>
+</head>
+<body>
+    <h1 style="text-align:center">Libros</h1>
+    <div class="books">
+        {% for libro in books %}
+            <div class="book">
+                <h1>Book Title: {{libro.getAttribute("title")}} </h1>
+                <h2>Author: {{libro.getAttribute("author")}}</h2>
+                <strong>Main characters</strong>
+                <ul>
+                    {% for character in libro.getAttribute("main_characters") %}
+
+                    <li>{{character}}</li>
+
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
